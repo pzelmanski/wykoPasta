@@ -77,7 +77,7 @@ def PreparePostContent(nextPostData):
 
     content = f'Słowo numer {nextWordIndex}!\n> {nextWord}\n'
 
-    suffix = "! ==========================================\n! ==========================================\n! ==========================================\n! Pasty pisane słowo po słowie! #pastyananasa"
+    suffix = "! ==========================================\n! ==========================================\n! ==========================================\n!"
     return content + suffix
 
 def CreatePostAndGetLink(session, token, postContent):
